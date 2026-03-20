@@ -1,0 +1,17 @@
+{
+  "name": "nexa-pro-bot",
+  "version": "2.0.0",
+  "description": "Pro interactive Telegram bot with OTP fetcher",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "axios-cookiejar-support": "^2.1.1",
+    "tough-cookie": "^4.1.3"
+  }
+}
